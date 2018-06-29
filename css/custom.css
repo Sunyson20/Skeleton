@@ -1,5 +1,5 @@
 .container {
-  max-width: 800px;
+  max-width: 100%;
 }
 
 .header {
@@ -170,6 +170,8 @@
     height: 6.5rem;
     background: #fff;
     z-index: 99;
+  }
+  .navbar {
     border-top: 1px solid transparent;
     border-bottom: 1px solid transparent;
     border-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(51, 195, 240, 0.85), rgba(0, 0, 0, 0));
@@ -303,14 +305,14 @@
   text-align: center;
   border-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(51, 195, 240, 0.85), rgba(0, 0, 0, 0));
   border-image-slice: 1;
-  margin-bottom: 30px;
+  margin-bottom: 4rem;
 }
 
 .dividing-line-text span {
   position: relative;
-  top: -14px;
+  top: -1.5rem;
   background: #fff;
-  padding: 0 20px;
+  padding: 0 2rem;
 }
 
 hr.dividing-line {
